@@ -1,0 +1,32 @@
+{
+    "name": "ivopetkov/css-to-attributes-bearframework-addon",
+    "description": "CSS to Attributes addon for Bear Framework",
+    "keywords": [
+        "css",
+        "attributes",
+        "html",
+        "Bear Framework addon"
+    ],
+    "homepage": "https://github.com/ivopetkov/css-to-attributes-bearframework-addon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Petkov",
+            "email": "ivo@ivopetkov.com",
+            "homepage": "http://ivopetkov.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*|8.1.*",
+        "bearframework/bearframework": "1.*",
+        "ivopetkov/client-packages-bearframework-addon": "1.*"
+    },
+    "require-dev": {
+        "bearframework/addon-tests": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
