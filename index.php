@@ -13,7 +13,7 @@ $app = App::get();
 $context = $app->contexts->get(__DIR__);
 
 $app->clientPackages
-    ->add('cssToAttributes', function (IvoPetkov\BearFrameworkAddons\ClientPackage $package) use ($context) {
+    ->add('cssToAttributes', function (IvoPetkov\BearFrameworkAddons\ClientPackage $package) use ($context): void {
         $package->addJSCode(require_once __DIR__ . '/assets/cssToAttributes.min.js.php');
         $package->get = 'return cssToAttributes;';
     });
